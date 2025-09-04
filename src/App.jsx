@@ -2,19 +2,12 @@ import './App.css'
 import React from "react";
 
 function App() {
-  let tableData = [
-      {id: 1, course: 'Programowanie w C#'},
-      {id: 1, course: 'Angular dla początkujących'},
-      {id: 1, course: 'Kurs Django'}
-  ]
-  const [people, setPeople] = React.useState({
-      name: nameid,
-      course: courseid
-  })
-  function handleclick(event){
+  let tableData = ['Programowanie w C#', 'Angular dla początkujących', 'Kurs Django']
+
+    function handleclick(event){
       event.preventDefault()
-      console.log(name, course)
-  }
+
+    }
     return (
     <>
         <div className='container'>

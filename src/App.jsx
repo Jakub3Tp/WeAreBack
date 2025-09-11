@@ -2,7 +2,8 @@ import './App.css'
 import React from "react";
 
 function App() {
-  let tableData = ['Programowanie w C#', 'Angular dla początkujących', 'Kurs Django']
+  let tableData = ['Programowanie w C#', 'Angular dla początkujących', 'Kurs Django'];
+  const [name, setName] = React.useState('');
 
     function handleclick(event){
       event.preventDefault()
